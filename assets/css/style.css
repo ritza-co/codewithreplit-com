@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #f3bd2f;
+  color: #409036;
 }
 .navbar .dropdown ul {
   display: block;
@@ -346,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background: url("../img/map-color-overlay.png") top center;
   background-size: cover;
   position: relative;
@@ -405,19 +405,20 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #409036;
+  color: #409036;
 }
 #hero .btn-get-started:hover {
-  background: #f3bd2f;
-  border: 2px solid #f3bd2f;
+  background: #409036;
+  border: 2px solid #409036;
+  color: #fff;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -466,8 +467,8 @@ section {
 }
 .section-title h2::after {
   content: "";
-  width: 120px;
-  height: 1px;
+  width: 70px;
+  height: 2px;
   display: inline-block;
   background: #f3bd2f;
   margin: 4px 10px;
@@ -532,7 +533,7 @@ section {
 }
 .courses .course-content h4 {
   font-size: 14px;
-  background: #f3bd2f;
+  background: #409036;
   padding: 7px 14px;
   color: #fff;
   margin: 0;
